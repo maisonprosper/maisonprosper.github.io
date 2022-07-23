@@ -16,7 +16,7 @@ export default function Home() {
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem} key="blog">
             <Link href={`https://blog.maisonprosper.com`}>
-              <a className={utilStyles.linkStyle}>Blog</a>
+              <a className={utilStyles.linkStyle} target="_blank" rel="noreferrer">Blog</a>
             </Link>
           </li>
           <li className={utilStyles.listItem}>
@@ -24,7 +24,7 @@ export default function Home() {
             <ul>
               <li className={utilStyles.listItem} key="calculator">
                 <Link href={`https://calculator.maisonprosper.com`}>
-                  <a className={utilStyles.linkStyle}>CIDR Calculator for IBM Cloud</a>
+                  <a className={utilStyles.linkStyle}  target="_blank" rel="noreferrer">CIDR Calculator for IBM Cloud</a>
                 </Link>
               </li>
             </ul>
